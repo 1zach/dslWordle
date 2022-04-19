@@ -113,13 +113,13 @@ const checkRow = () => {
     flipTile()
     if (currentTile > (wordle.length - 1)) {
        if(wordle == guess) {
-           showMessage('You got it!')
+           showMessage('Yeah he does')
            isGameOver = true
            return
        } else {
            if (currentRow >=5) {
                isGameOver=true
-               showMessage('Game Over')
+               showMessage("You're as bad as Kory, try again")
                return
            }
            if (currentRow < 5) {
@@ -134,7 +134,7 @@ const showMessage = (message) => {
     const messageElement = document.createElement('p')
     messageElement.textContent = message
     messageDisplay.append(messageElement)
-    setTimeout(() => messageDisplay.removeChild(messageElement), 2000)
+    //setTimeout(() => messageDisplay.removeChild(messageElement), 10000)
 }
 
 const addColorToKey = (keyLetter, color) => {

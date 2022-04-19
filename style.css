@@ -19,12 +19,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .tile-container {
     width: 330px;
     height: 400px;
-    margin-bottom: 30px;
+    margin: 50px 0;
 }
 
 .keyboard-container {
@@ -56,6 +57,7 @@ body {
 
 .tile-container div {
     display: flex;
+    
 }
 
 
@@ -79,7 +81,7 @@ body {
     background-color: #818384;
     border-radius: 10px;
     padding: 10px;
-    margin: 0px;
+    margin: 10px;
 }
 
 .tile.flip {
