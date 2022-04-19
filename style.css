@@ -29,26 +29,30 @@ body {
 }
 
 .keyboard-container {
-    width: 90vw;
+    width: 98vw;
     display: flex;
     flex-wrap: wrap;
     
 }
 
 .keyboard-container button {
-    width: 1.5rem;
+    width: 2rem;
     height: 2.5rem;
     border-radius: 4px;
     border: none;
     background-color: #813384;
-    margin: 4px;
-    font-size: .8rem;
+    margin: 2px;
+    font-size: 1rem;
 }
 
 .keyboard-container button:nth-child(20),
 .keyboard-container button:nth-child(28) {
     width: 3rem;
     text-align: center;
+}
+
+.keyboard-container button:nth-child(20) {
+    font-size: .75rem;
 }
 
 .keyboard-container button:nth-child(11) {
